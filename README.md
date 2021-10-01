@@ -35,4 +35,4 @@ Xmobar and Xmonad (And trayer-srg)
   - nitrogen
   - feh
   - betterlockscreen ([AUR Package](https://aur.archlinux.org/packages/betterlockscreen/) [Github](https://github.com/betterlockscreen/betterlockscreen))
-  - YAY ([AUR Package(https://aur.archlinux.org/packages/yay/) [Github](https://github.com/Jguer/yay))
+  - YAY ([AUR Package](https://aur.archlinux.org/packages/yay/) [Github](https://github.com/Jguer/yay))
