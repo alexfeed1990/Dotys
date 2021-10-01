@@ -21,6 +21,8 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   <br>
   ![](https://user-images.githubusercontent.com/76942911/135654060-9e1c0e9b-1f36-4145-9c36-91b9f62f7793.png)
   
+  (I know the deadbeef looks like bullshit, leave me alone. Im too sick of ricing to rice deadbeef too.)
+  
 
 # Programs/Requirements
 
