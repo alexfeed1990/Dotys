@@ -13,13 +13,13 @@ Thanks to the [r/unixporn discord](https://discord.gg/d53yESY) i was finally abl
 
 And no, im not making an install script. Figure it out yourself or add me on discord or whatever. 
 
-# Screenshots!
+# Screenshots
   
   ![](https://user-images.githubusercontent.com/76942911/135653821-9e0c50e9-cb04-4c63-aac2-24dccd5b1910.png)
   <br>
   ![](https://user-images.githubusercontent.com/76942911/135653940-732da22d-f5c1-41a6-b9e7-18ecd3f24f2e.png)
   <br>
-  [](https://user-images.githubusercontent.com/76942911/135654060-9e1c0e9b-1f36-4145-9c36-91b9f62f7793.png)
+  ![](https://user-images.githubusercontent.com/76942911/135654060-9e1c0e9b-1f36-4145-9c36-91b9f62f7793.png)
   
 
 # Programs/Requirements
