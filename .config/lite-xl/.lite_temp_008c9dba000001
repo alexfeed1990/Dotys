@@ -1,0 +1,3 @@
+        cd BladeBot && node .
+        touch "/home/andrew/.config/lite-xl/.lite_temp_008c9dba000004"
+      
