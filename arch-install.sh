@@ -10,7 +10,7 @@ cd yay-git
 makepkg -si
 yay -S betterlockscreen deadbeef-git trayer-srg ttf-font-awesome-4
 betterlockscreen -u ~/Wallpaper.jpg
-echo "Use nitrogen after getting into xmonad to set the wallpaper."
+echo "Use nitrogen after getting into xmonad to set the wallpaper, as stated in the readme."
 sudo systemctl enable sddm
 sudo systemctl enable dunst
 echo "Everything should be setup as intended. Enjoy your setup!"
