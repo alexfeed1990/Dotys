@@ -71,6 +71,7 @@ sudo chown -R $USER:$USER ./yay-git
 cd yay-git
 makepkg -si
 yay -S betterlockscreen deadbeef-git trayer-srg
+betterlockscreen -u ~/Wallpaper.jpg
 sudo systemctl enable sddm
 sudo systemctl enable dunst
 ```
