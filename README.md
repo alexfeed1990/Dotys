@@ -26,10 +26,9 @@ And no, im not making an install script. Figure it out yourself or add me on dis
 # Installation (I guess)
 
 ```
-git clone https://github.com/alexfeed1990/dotys
-cd dotys
-chmod +x archinstall.sh
-./archinstall.sh
+curl -SO https://raw.githubusercontent.com/alexfeed1990/Dotys/main/arch-install.sh
+chmod +x arch-install.sh
+./arch-install.sh
 ```
 
 After getting into XMonad
