@@ -32,6 +32,14 @@ chmod +x archinstall.sh
 ./archinstall.sh
 ```
 
+After getting into XMonad
+Do these commands:
+
+```
+nitrogen --set-zoom-fill ~/Wallpaper.jpg
+nitrogen --save
+```
+
 # Programs/Requirements
 
   - xmonad
