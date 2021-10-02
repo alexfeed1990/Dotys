@@ -34,11 +34,10 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   - pulseaudio
   - pulsemixer
   - deadbeef ([AUR Package](https://aur.archlinux.org/packages/deadbeef/) [Website](https://deadbeef.sourceforge.io/))
-  - xserver utils or whatever
+  - xorg-xrandr
   - picom
   - flameshot
   - dunst
-  - xrandr
   - rofi
   - [rofi applets](https://github.com/adi1090x/rofi)
   - neovim
@@ -47,7 +46,6 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   - spotify
   - firefox
   - arandr (optional)
-  - litexl
   - obs studio
   - lightdm
   - nitrogen
@@ -55,3 +53,19 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   - betterlockscreen ([AUR Package](https://aur.archlinux.org/packages/betterlockscreen/) [Github](https://github.com/betterlockscreen/betterlockscreen))
   - YAY ([AUR Package](https://aur.archlinux.org/packages/yay/) [Github](https://github.com/Jguer/yay))
   - xorg-xrandr
+  - xorg-xsetroot
+  - xorg-server
+  - xorg
+
+# Installation (I guess)
+
+```
+git clone https://github.com/alexfeed1990/dotys
+cd dotys
+cp -r -a -v * ~/
+sudo pacman -Syu xmonad xmonad-contrib xmobar alsa-utils pulseaudio pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen lightdm lightdm-gtk-theme xorg-xrandr xorg-xsetroot xorg-server xorg git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay -S betterlockscreen deadbeef-git trayer
+```
