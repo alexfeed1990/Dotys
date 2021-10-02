@@ -68,4 +68,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 yay -S betterlockscreen deadbeef-git trayer
+sudo systemctl enable lightdm
+sudo systemctl enable dunst
 ```
