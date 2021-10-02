@@ -64,6 +64,7 @@ git clone https://github.com/alexfeed1990/dotys
 cd dotys
 sudo pacman -Syu xmonad xmonad-contrib xmobar alsa-utils pulseaudio pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
 cp -a * . ~/
+pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
