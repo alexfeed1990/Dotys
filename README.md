@@ -33,6 +33,7 @@ chmod +x archinstall.sh
 ```
 
 After getting into XMonad
+
 Do these commands:
 
 ```
