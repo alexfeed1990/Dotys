@@ -8,10 +8,9 @@ sudo git clone https://aur.archlinux.org/yay-git.git
 sudo chown -R $USER:$USER ./yay-git
 cd yay-git
 makepkg -si
-yay -S betterlockscreen deadbeef-git trayer-srg
+yay -S betterlockscreen deadbeef-git trayer-srg ttf-font-awesome-4
 betterlockscreen -u ~/Wallpaper.jpg
-nitrogen --set-zoom-fill ~/Wallpaper.jpg
-nitrogen --save
+echo "Use nitrogen after getting into xmonad to set the wallpaper, as stated in the readme."
 sudo systemctl enable sddm
 sudo systemctl enable dunst
 echo "Everything should be setup as intended. Enjoy your setup!"
