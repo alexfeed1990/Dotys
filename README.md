@@ -65,8 +65,10 @@ cd dotys
 sudo pacman -Syu xmonad xmonad-contrib xmobar alsa-utils pulseaudio pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
 cp -a * . ~/
 pacman -S --needed git base-devel
+cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
-cd yay
+sudo chown -R $USER:$USER ./yay-git
+cd yay-git
 makepkg -si
 yay -S betterlockscreen deadbeef-git trayer-srg
 sudo systemctl enable sddm
