@@ -10,6 +10,8 @@ cd yay-git
 makepkg -si
 yay -S betterlockscreen deadbeef-git trayer-srg
 betterlockscreen -u ~/Wallpaper.jpg
+nitrogen --set-zoom-fill ~/Wallpaper.jpg
+nitrogen --save
 sudo systemctl enable sddm
 sudo systemctl enable dunst
 echo "Everything should be setup as intended. Enjoy your setup!"
