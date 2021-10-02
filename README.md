@@ -23,6 +23,14 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   
   (I know the deadbeef looks like bullshit, leave me alone. Im too sick of ricing to rice deadbeef too.)
   
+# Installation (I guess)
+
+```
+git clone https://github.com/alexfeed1990/dotys
+cd dotys
+chmod +x archinstall.sh
+./archinstall.sh
+```
 
 # Programs/Requirements
 
@@ -57,11 +65,3 @@ And no, im not making an install script. Figure it out yourself or add me on dis
   - xorg-server
   - xorg
 
-# Installation (I guess)
-
-```
-git clone https://github.com/alexfeed1990/dotys
-cd dotys
-chmod +x archinstall.sh
-./archinstall.sh
-```
