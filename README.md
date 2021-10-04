@@ -50,7 +50,7 @@ nitrogen --save
   - asla-utils
   - pulseaudio
   - pulsemixer
-  - deadbeef ([AUR Package](https://aur.archlinux.org/packages/deadbeef/) [Website](https://deadbeef.sourceforge.io/))
+  - deadbeef ([AUR Package](https://aur.archlinux.org/packages/deadbeef/) [Website](https://deadbeef.sourceforge.io/)) (Isn't included in install script)
   - xorg-xrandr
   - picom
   - flameshot
