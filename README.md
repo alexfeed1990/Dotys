@@ -74,3 +74,8 @@ nitrogen --save
   - xorg-server
   - xorg
 
+# btw
+
+if you are a person whichs left and right arrow keys dont work (Im looking at you sword, GET A DANG KEYBOARD)
+
+use the up and down arrow keys to navigate the powermenu
