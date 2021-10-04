@@ -34,6 +34,7 @@ chmod +x arch-install.sh
 After getting into XMonad
 
 Do these commands:
+(Or use the gui)
 
 ```
 nitrogen --set-zoom-fill ~/Wallpaper.jpg
