@@ -194,7 +194,7 @@ myLogHook = do
 -- By default, do nothing.
 
 myStartupHook = do
-   spawnOnce "nitrogen --restore &"
+   spawnOnce "nitrogen --set-zoom-fill ~/Wallpaper.jpg"
    spawnOnce "picom &"
    spawnOnce "xmobar -x 0 ~/.config/xmobar/xmobar.conf"
    spawnOnce "xrandr --output eDP-1 --mode 1366x768 --pos 0x360 --rotate normal --output VGA-1 --primary --mode 1920x1080 --pos 1366x0 --rotate normal --output HDMI-1 --off"
