@@ -16,7 +16,7 @@ install_fonts() {
 
 git clone https://github.com/alexfeed1990/dotys
 cd dotys
-sudo pacman -Syu ttf-font-awesome noto-fonts-emoji xmonad xmonad-contrib xmobar alsa-utils pulseaudio pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
+sudo pacman -Syu ttf-font-awesome noto-fonts-emoji xmonad xmonad-contrib xmobar alsa-utils pulseaudio neovim pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
 cp -a * . ~/
 pacman -S --needed git base-devel
 cd /opt
