@@ -16,7 +16,7 @@ install_fonts() {
 
 git clone https://github.com/alexfeed1990/dotys
 cd dotys
-sudo pacman -Syu ttf-font-awesome noto-fonts-emoji xmonad xmonad-contrib xmobar alsa-utils pulseaudio neovim pulsemixer picom flameshot dunst rofi spotify alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
+sudo pacman -Syu ttf-font-awesome noto-fonts-emoji xmonad xmonad-contrib xmobar alsa-utils pulseaudio neovim pulsemixer picom flameshot dunst rofi alacritty firefox arandr feh nitrogen sddm xorg-xrandr xorg-xsetroot xorg-server xorg git
 cp -a * . ~/
 pacman -S --needed git base-devel
 cd /opt
@@ -28,7 +28,6 @@ yay -S betterlockscreen trayer-srg ttf-font-awesome-4
 betterlockscreen -u ~/Wallpaper.jpg
 echo "Use nitrogen after getting into xmonad to set the wallpaper, as stated in the readme."
 sudo systemctl enable sddm
-sudo systemctl enable dunst
 git clone https://github.com/alexfeed1990/shetch
 cd shetch
 sudo make install
