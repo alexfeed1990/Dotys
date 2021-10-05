@@ -26,7 +26,7 @@ And no, im not making an install script. Figure it out yourself or add me on dis
 # Installation (I guess)
 
 ```
-curl -SO https://raw.githubusercontent.com/alexfeed1990/Dotys/main/arch-install.sh
+curl -L0 https://raw.githubusercontent.com/alexfeed1990/Dotys/main/arch-install.sh
 chmod +x arch-install.sh
 ./arch-install.sh
 ```
