@@ -194,8 +194,8 @@ myLogHook = do
 -- By default, do nothing.
 
 myStartupHook = do
-   spawnOnce "nitrogen --set-zoom-fill ~/Wallpaper.jpg"
-   spawnOnce "picom &"
+   spawnOnce "nitrogen --set-scaled ~/Wallpaper.jpg"
+   spawnOnce "picom --experimental-backends &"
    spawnOnce "xmobar -x 0 ~/.config/xmobar/xmobar.conf"
    spawnOnce "dunst"
    spawnOnce "dunstify -u low 'Hey!' 'Dunst started up.'"
