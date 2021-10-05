@@ -31,6 +31,12 @@ chmod +x arch-install.sh
 ./arch-install.sh
 ```
 
+Once in XMonad do this:
+
+```
+betterlockscreen -u ~/Wallpaper.jpg
+```
+
 (Btw edit ~/.config/xmobar/xmobar.conf and change andrew to your user) 
 
 (if you cant do that get good at linux)
