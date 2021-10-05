@@ -31,15 +31,9 @@ chmod +x arch-install.sh
 ./arch-install.sh
 ```
 
-After getting into XMonad
+(Btw edit ~/.config/xmobar/xmobar.conf and change andrew to your user) 
 
-Do these commands:
-(Or use the gui)
-
-```
-nitrogen --set-zoom-fill ~/Wallpaper.jpg
-nitrogen --save
-```
+(if you cant do that get good at linux)
 
 # Programs/Requirements
 
@@ -73,9 +67,3 @@ nitrogen --save
   - xorg-xsetroot
   - xorg-server
   - xorg
-
-# btw
-
-if you are a person whichs left and right arrow keys dont work (Im looking at you sword, GET A DANG KEYBOARD)
-
-use the up and down arrow keys to navigate the powermenu
