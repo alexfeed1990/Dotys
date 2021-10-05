@@ -1,5 +1,4 @@
 # Wallpaper
-nitrogen --restore &
+nitrogen --set-zoom-fill ~/Wallpaper.jpg &
 
-# Compositor
-picom &
+# No picom here because its already in the xmonad config lmoa
