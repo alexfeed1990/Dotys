@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # This font shit is directly grabbed from the rofi repository
 
 # Dirs
@@ -36,6 +34,7 @@ cd shetch
 sudo make install
 shetch
 cd ..
+cd //
 install_fonts
 echo "Everything should be setup as intended. Enjoy your setup!"
 exit
