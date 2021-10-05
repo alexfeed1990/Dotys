@@ -197,7 +197,6 @@ myStartupHook = do
    spawnOnce "nitrogen --set-zoom-fill ~/Wallpaper.jpg"
    spawnOnce "picom &"
    spawnOnce "xmobar -x 0 ~/.config/xmobar/xmobar.conf"
-   spawnOnce "xrandr --output eDP-1 --mode 1366x768 --pos 0x360 --rotate normal --output VGA-1 --primary --mode 1920x1080 --pos 1366x0 --rotate normal --output HDMI-1 --off"
    spawnOnce "dunst"
    spawnOnce "dunstify -u low 'Hey!' 'Dunst started up.'"
    spawnOnce "trayer --edge top --align right --widthtype request --padding 0 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x333333  --height 19 &"
