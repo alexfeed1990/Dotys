@@ -32,7 +32,6 @@ sudo systemctl enable dunst
 git clone https://github.com/alexfeed1990/shetch
 cd shetch
 sudo make install
-shetch
 cd ..
 install_fonts
 echo "Everything should be setup as intended. Enjoy your setup!"
