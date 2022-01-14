@@ -11,8 +11,6 @@ These dotties took alot to make, after my shit setup with DT code i finally made
 
 Thanks to the [r/unixporn discord](https://discord.gg/d53yESY) i was finally able to finish this.
 
-And no, im not making an install script. Figure it out yourself or add me on discord or whatever. 
-
 # Screenshots
   
   ![](https://user-images.githubusercontent.com/76942911/135653821-9e0c50e9-cb04-4c63-aac2-24dccd5b1910.png)
